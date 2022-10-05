@@ -18,7 +18,7 @@ body {
   grid-template-columns: 79px repeat(18, 97px) 77px;
   grid-template-rows: repeat(11, 97px);
   position: relative;
-  background-image: url('./assets/bg.png');
+  background-image: url('./public/assets/bg.png');
   background-size: cover;
   overflow: hidden;
   z-index: 1;
