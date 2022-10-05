@@ -7,6 +7,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
 }
 
 
@@ -273,11 +274,6 @@ body {
   transform: translate(250px, 30px);
 }
 
-.header__logo:hover {
-  /* border: 1px solid #3a8e28; */
-  background: #fff;
-}
-
 
 @media (max-width: 768px) {
   .app__wrapper {
@@ -306,6 +302,7 @@ body {
 
   .app__heading {
     padding: 0 16px 0 16px;
+    margin-bottom: 10px;
   }
 
   .app__text {
