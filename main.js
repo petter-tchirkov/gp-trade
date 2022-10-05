@@ -27,25 +27,25 @@ function Animation() {
 }
 
 document.querySelector('.social__fb').addEventListener('mouseover', () => {
-  document.querySelector('.social__fb img').src = './public/fb-white.svg'
+  document.querySelector('.social__fb img').src = 'fb-white.svg'
 })
 document.querySelector('.social__fb').addEventListener('mouseout', () => {
-  document.querySelector('.social__fb img').src = './public/fb-small.svg'
+  document.querySelector('.social__fb img').src = 'fb-small.svg'
   console.log('out');
 })
 
 document.querySelector('.social__ln').addEventListener('mouseover', () => {
-  document.querySelector('.social__ln img').src = './public/ln-white.svg'
+  document.querySelector('.social__ln img').src = 'ln-white.svg'
 })
 document.querySelector('.social__ln').addEventListener('mouseout', () => {
-  document.querySelector('.social__ln img').src = './public/ln-small.svg'
+  document.querySelector('.social__ln img').src = 'ln-small.svg'
   console.log('out');
 })
 
 document.querySelector('.social__address').addEventListener('mouseover', () => {
-  document.querySelector('.social__address img').src = './public/address-white.svg'
+  document.querySelector('.social__address img').src = 'address-white.svg'
 })
 document.querySelector('.social__address').addEventListener('mouseout', () => {
-  document.querySelector('.social__address img').src = './public/address.svg'
+  document.querySelector('.social__address img').src = 'address.svg'
   console.log('out');
 })
