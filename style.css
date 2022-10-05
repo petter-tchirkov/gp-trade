@@ -131,7 +131,7 @@ body {
   grid-column-end: 13;
   color: #fff;
   font-size: 20px;
-  line-height: 22px;
+  line-height: 24px;
 }
 
 .app__heading span:first-child {
@@ -139,6 +139,11 @@ body {
 }
 
 .app__heading span:last-child {
+  color: #8dc899;
+  font-weight: 600;
+}
+
+#link {
   color: #8dc899;
   font-weight: 600;
 }
@@ -167,6 +172,7 @@ body {
   padding-bottom: 20px;
   color: #fff;
   font-weight: 800;
+  z-index: 2;
 }
 
 .app__phone {
